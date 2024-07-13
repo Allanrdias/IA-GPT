@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Estilos para o textarea */
+textarea {
+    width: 80%;
+    height: 200px;
+}
+
+/* Estilos para o resultado */
+#resultado {
+    width: 80%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+/* Estilos para o container */
+.container {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Estilos para o placeholder do input */
+.form-control::placeholder {
+    color: #747474;
+    font-weight: bold;
+}
+
+/* Estilos para o botão primário */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0069d9;
+}
+
+/* Estilos para o container de resultado */
+#resultado-container {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Estilos para a barra de rolagem */
+#resultado-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+#resultado-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+#resultado-container::-webkit-scrollbar-thumb {
+    background: #888;
+}
